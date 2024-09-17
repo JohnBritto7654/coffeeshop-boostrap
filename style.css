@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    /* background-color:aqua !important; */
+}
+.nav-item  a{
+    font-family: "Nunito", sans-serif;
+    font-size: 1.2rem !important;
+    /* font */
+}
+.heroSection
+{
+    /* background-color: #ff0f00; */
+    /* background: lineargrr; */
+}
+.heroBody
+{
+    background: linear-gradient(90deg, white, transparent 70%), url(./assets/images/hero.jpg) no-repeat;
+
+}
+.heroJumbotron
+{
+    /* margin-right: 70rem;
+    margin-bottom: 15rem; */
+    /* background-color: #ff0f00; */
+    /* padding: 15rem 20rem 15rem 8rem; */
+    /* padding-top:5rem ; */
+    /* padding-right:65rem ; */
+    /* padding-bottom: 5rem; */
+    /* padding-left: ; */
+    /* padding-left: 15rem; */
+    padding-right:38rem;
+    padding-bottom: 25rem;
+    padding-top: 24rem;
+    padding-left: 15rem;
+
+    /* margin-top: 10rem; */
+    /* padding-right: 20rem; */
+    
+    margin-right: 5rem;
+    
+    /* padding-left: 3rem; */
+    text-align: center;
+  
+    
+     
+}
+.heroJumbotron h1 {
+    font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-size: 54px;
+  font-style: normal;
+  text-align: center;
+  margin-right: 7rem;
+  /* background-color: #ff0f00; */
+}
+.heroJumbotron p{
+    font-family:"Nunito", sans-serif ;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9rem;
+    line-height: 2rem;
+    /* margin-left: 15rem; */
+     /* margin-left: 20rem; */
+     /* padding: 1rem 0rem; */
+     padding-right: 10rem;
+     padding-right: 10rem;
+     /* background-color: #ff0f00; */
+}
+.heroJumbotron button
+{
+    margin-top: 1rem;
+    background-color: #be9c79 ;
+    padding: 0.5rem 1.4rem ;
+    /* background-color: #ff0f00; */
+    text-align: center;
+    margin-bottom: 6rem;
+    text-decoration: none;
+    margin-right: 6rem;
+    
+
+  
+}
+.heroJumbotron button a{
+    color: #f0f8ff;
+    font-family:"Nunito", sans-serif  ;
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration: none;
+    list-style: none !important;
+    /* background-color: #ff0f00; */
+}
+.heroJumbotron button:hover
+{
+    background-color: #000000 ;
+}
+.ourMenuJumbotron
+{
+
+}
+.ourMenuJumbotron h2
+{
+    font-family: "Merienda One", cursive;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.ourMenuJumbotron p{
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    color: #a3a19a;
+    padding: 0rem 5rem 0rem 0rem; 
+}
+.ourMenuJumbotron button
+{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color:#be9c79;
+}
+.ourMenuJumbotron  a 
+{
+   font-family: "Nunito", sans-serif;
+   font-size: 1rem;
+   font-weight: 400;
+   color: #f0f8ff;
+   text-decoration: none;
+   list-style: none;
+   /* background-color:#ebcb8b; */
+}
+.ourMenuJumbotron button:hover
+{
+    background-color: #000000;
+}
+.formBlock
+{
+    padding-left: 7rem;
+}
+.bookingForm
+{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    /* padding-top: 12rem; */
+
+}
+.bookingForm
+{
+ border: 1px solid #000000;
+ padding: 1rem 4rem 1rem 1rem ;
+
+ margin: auto;
+ 
+
+ 
+}
+.bookingForm ::placeholder
+{
+    font-family:"Nunito", sans-serif ;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 1rem;
+    margin-top: 1rem;
+    /* border: solid 1px #000000;; */
+    /* padding: 1rem; */
+    
+    color: #a3a19a;
+
+    
+}
+.bookingForm h3 {
+    font-family: "Nunito", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 600;
+    font-style: "Nunito", sans-serif;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+.formBlock
+{
+    padding-right: 10rem;
+    /* padding-right: 9rem; */
+    /* margin-right: 10rem; */
+}
+
+.formBody {
+    border-color: black;
+    /* padding-left: 6rem; */
+    /* padding: 4rem 4rem; */
+    width: 100%;
+}
+
+.formGroup {
+    padding: 0.7rem;
+    /* margin: 1rem 0; */
+    bottom: black;
+    /* align-items: flex-start; */
+}
+
+.formGroup
+{
+    /* border:#000000; */
+    /* padding-left: 2rem; */
+    /* padding: 1rem 5rem; */
+    
+}
+.formGroup input
+{
+    /* margin-bottom: 1.5rem; */
+    /* padding: 0.8rem 10rem 0.8rem 0.8rem; */
+    padding: 0.8rem 14rem 0.8rem 0.3rem;
+    border: 1px solid #000000;;
+     /* padding: 1rem 7rem; */
+     width: 110%;
+}
+.formGroup button
+{
+    background-color: #be9c79;
+    padding: 0.4rem 2.5rem;
+    border: 0;
+
+   color: #f0f8ff;
+}
+.formGroup button:hover
+{
+    background-color: #000000;
+}
+.iconsCardHeader i{
+background-color: #be9c79;
+padding: 1rem;
+border-radius: 22rem;
+box-shadow:#be9c79 ;
+font-size: 1.5rem;
+color: #f0f8ff;
+}
